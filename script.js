@@ -118,21 +118,14 @@ function fillU(){//if color is blank then change it
 function fillAll(){
     let grid =document.getElementById("grid");
    let td =grid.querySelectorAll("td");
-   td.forEach(td =>{
+   td.forEach(td =>{  // changes colors regardless of what's filled
     td.style.background= colorSelected;
    })
 
-     
-   //if( td.style.background != colorSelected){   // alert("Clicked Fill All")
-    
-
-  //  td.style.backgroundColor= colorSelected
-   //}
-   // Replace this line with your code. // might need all query elements once doing more research
 
 }
 
-// Clear all cells // means remove all colors?
+// Clear all cells 
 function clearAll(){
     
     let grid =document.getElementById("grid");
